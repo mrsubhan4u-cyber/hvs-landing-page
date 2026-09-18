@@ -99,8 +99,8 @@
             background-color: #1877F2;
             color: white;
         }
-        .btn-map {
-            background-color: var(--brand-orange);
+        .btn-instagram {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
             color: white;
         }
         .contact-section {
@@ -132,6 +132,21 @@
         .phone-btn:hover {
             background-color: rgba(245, 125, 42, 0.2);
         }
+        .address-text {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #555;
+            line-height: 1.5;
+            padding: 12px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+        .address-text i {
+            color: var(--brand-orange);
+            margin-right: 5px;
+            font-size: 1.1rem;
+        }
     </style>
 </head>
 <body>
@@ -146,6 +161,7 @@
     <!-- Services -->
     <div class="services">
         <span class="service-tag">Flight Ticketing</span>
+        <span class="service-tag">Hotel Booking</span>
         <span class="service-tag">Visa Assistance</span>
         <span class="service-tag">Hajj & Umrah</span>
         <span class="service-tag">Travel Consultancy</span>
@@ -156,15 +172,14 @@
         <a href="http://www.hvsconsultancy.com" class="btn btn-website" target="_blank">
             <i class="fas fa-globe"></i> Visit Our Website
         </a>
+        <a href="https://www.instagram.com/hvs_consultancy?stkn=empqN2R3aTZnOG05&utm_source=qr" class="btn btn-instagram" target="_blank">
+            <i class="fab fa-instagram"></i> Follow on Instagram
+        </a>
         <a href="https://www.tiktok.com/@haseebkhan3690?_t=8rY2BOBLfhn&_r=1" class="btn btn-tiktok" target="_blank">
             <i class="fab fa-tiktok"></i> Follow on TikTok
         </a>
         <a href="https://www.facebook.com/share/1JCWqFZ9sN/" class="btn btn-facebook" target="_blank">
             <i class="fab fa-facebook"></i> Connect on Facebook
-        </a>
-        <!-- Google Maps Link -->
-        <a href="https://www.google.com/maps/search/?api=1&query=Commercial+Plaza+26,+Civic+Centre,+Wah+Model+Town,+Phase+1,+Wah+Cantt" class="btn btn-map" target="_blank">
-            <i class="fas fa-map-marker-alt"></i> View on Google Maps
         </a>
     </div>
 
@@ -176,6 +191,13 @@
             <a href="tel:03323694444" class="phone-btn"><i class="fas fa-phone-alt"></i> 0332-3694444</a>
             <a href="tel:03239691350" class="phone-btn"><i class="fas fa-phone-alt"></i> 0323-9691350</a>
             <a href="tel:0517233230" class="phone-btn"><i class="fas fa-phone-alt"></i> 051-7233230</a>
+        </div>
+        
+        <!-- Address Text -->
+        <div class="address-text">
+            <i class="fas fa-map-marker-alt"></i> 
+            <strong>Visit Us:</strong><br>
+            First Floor, Commercial Plaza #26, Civic Centre, Wah Model Town, Phase 1, GT Road, Wah Cantt.
         </div>
     </div>
 </div>
